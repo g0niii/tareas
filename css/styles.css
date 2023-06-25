@@ -216,7 +216,7 @@ input[type="button"]{
     }
 }
 
-@media (max-width: 765px){
+@media (max-width: 600px){
     .content {
         flex-flow: column wrap;
         justify-content: center;
@@ -229,16 +229,14 @@ input[type="button"]{
     .layout{
         width: 100%;
         height: auto;
-    
-        display: grid;
-        grid-template-areas:
-            "header header"
-            "nav nav"
-            "lateral lateral"
-            "content content"
-            "footer footer"
-        ;
-        grid-template-rows: 100px 70px auto 1fr;
+        display: flex;
+        flex-flow: column;
+
     }
+    .tarea-item{
+        width: 80%;
+        height: auto;
+    }
+
 
 }

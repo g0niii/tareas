@@ -247,7 +247,7 @@ input[type="button"]{
         height: auto;
     }
     .nav{
-        padding-right: 40px;
+        padding-right: 48px;
     }
     .nav > ul {
         display: flex;

@@ -246,7 +246,9 @@ input[type="button"]{
         width: 80%;
         height: auto;
     }
-
+    .nav{
+        padding-right: 40px;
+    }
     .nav > ul {
         display: flex;
         flex-direction: column;
@@ -254,4 +256,6 @@ input[type="button"]{
         align-items: center;
         list-style: none;
     }
-}
+
+
+    }
